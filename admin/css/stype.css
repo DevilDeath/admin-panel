@@ -1,0 +1,113 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	direction: ltr;
+	background-color: #3C3741;
+}
+
+.Login {
+	width: 350px;
+	height: 400px;
+	margin: 90px auto;
+	background-color: #E0E4CC;
+	border-top: 5px solid #D33257;
+	box-shadow: 0px 1px 5px;
+	padding: 10px;
+}
+
+.Login h3 {
+	float: left;
+	margin: 20px auto;
+	margin-left: 30px;
+	color: #D33257;
+	font-family: 'Roboto';
+}
+
+.Login img {
+	margin-top: -15px;
+}
+
+.Circle {
+	position: absolute;
+	border-radius: 50%;
+	width: 130px;
+	height: 130px;
+	top: 3%; 
+	left: 30%;
+	background-color: #E0E4CC;
+	background-image: url('../img/admin.png');
+	background-size: cover;
+	border: 2px solid #D33257;
+	transition: 1.5s ease;
+}
+
+.Login input[type=text] {
+  outline: none;
+  display: block;
+  width: 80%;
+  border: 1px solid #d9d9d9;
+  margin: 150 0 5px;
+  padding: 10px 15px;
+  transition: 1.5s ease;
+  font-family: 'Roboto';
+}
+
+.Login input[type=password] {
+  outline: none;
+  display: block;
+  width: 80%;
+  border: 1px solid #d9d9d9;
+  margin: 0 0 20px;
+  padding: 10px 15px;
+  transition: 1.5s ease;
+  font-family: 'Roboto';
+}
+
+.Login input[type=submit] {
+  background: #D33257;
+  width: 80%;
+  border: 0;
+  padding: 10px 15px;
+  color: #ffffff;
+  transition: 1.5s;
+  font-family: 'Roboto';
+}
+
+.Login input[type=text]:hover {
+	border-top: 2px solid #D33257;
+	padding-left: 30px;
+}
+
+.Login input[type=password]:hover {
+	border-top: 2px solid #D33257;
+	padding-left: 30px;
+}
+
+.Login input[type=submit]:hover {
+	background: #BADA55;
+}
+
+.Successful {
+	background-color: #514a59;
+	padding: 10px;
+	text-align: center;
+	font-family: 'Roboto';
+	font-weight: bold;
+	font-size: 20px;
+	color: #BADA55;
+	border-bottom: 3px solid #BADA55;
+}
+
+.Failed {
+	background-color: #514a59;
+	padding: 10px;
+	text-align: center;
+	font-family: 'Roboto';
+	font-weight: bold;
+	font-size: 20px;
+	color: #E3000E;
+	border-bottom: 3px solid #CF000F;
+}

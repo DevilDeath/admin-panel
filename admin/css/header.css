@@ -1,0 +1,116 @@
+html, body {
+	font-family: "open sans", "Helvetica Neve", Helvetica, Arial, sans-serif;
+	background-color: #D5D5D5;
+	color: #676a6c;
+	height: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.header {
+	position: absolute;
+	height: 44px;
+	width: 100%;
+	background-color: #2a3642;
+	z-index: 4;
+}
+
+.header span {
+	position: absolute;
+	color: white;
+	font-size: 25px;
+	padding: 0px;
+	top: 5px;
+	left: 10px;
+	font-weight: bold;
+}
+
+.header a {
+	text-decoration: none;
+	text-transform: none;
+	color: #D33257;
+}
+
+.side-nav {
+	position: absolute;
+	width: 13%;
+	background-color: #35414f;
+	height: 100vh;
+	z-index: 3;
+	padding-top: 44px;
+	border-right: 2px solid #D33257;
+}
+
+.side-nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 15px;
+}
+
+.side-nav ul li {
+	padding: 20px 10px;
+	border-bottom: 1px solid #333;
+}
+
+.side-nav ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+.side-nav ul li a i {
+	color: #61707d;
+}
+
+.ViewBorder {
+	position: absolute;
+	height: 92%;
+	width: 85.2%;
+	background-color: #2a2d37;
+	margin-left: 13.8%;
+	margin-top: 3%;
+	border-top: 5px solid #D33257;
+}
+
+.All {
+	width: 600px;
+	margin: 50px auto;
+}
+
+.Menu ul {
+	list-style: none;
+	overflow: hidden;
+}
+
+.Menu ul li {
+	float: left;
+	padding: 10px;
+	text-decoration: none;
+	background-color: #D33257;
+	font-size: 15px;
+	margin-left: 5px;
+}
+
+.Menu ul li a {
+	text-decoration: none;
+	font-size: 15px;
+	color: #fff;
+}
+
+.menuBody {
+	background: #d5d5d5;
+	padding: 10px;
+	font-size: 14px;
+	color: #333;
+	text-align: center;
+	border: 1px solid #D33257;
+}
+
+.label {
+	text-align: right;
+	color: #555;
+	font-size: 13px;
+	font-weight: bold;
+}
